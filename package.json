@@ -1,0 +1,28 @@
+{
+  "name": "steemaceapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Davood",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.5.1",
+    "apollo-server-express": "^2.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "dsteem": "^0.11.2",
+    "express": "^4.16.4",
+    "graphql": "^14.3.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.6.0",
+    "proxy-agent": "^3.1.0",
+    "sequelize": "^4.43.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
